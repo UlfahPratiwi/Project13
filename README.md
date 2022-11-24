@@ -25,8 +25,9 @@
 
 12. Klik tombol Tambahkan Fitur Garis. Klik pada kanvas peta untuk menambahkan simpul baru. Tambahkan simpul baru bersama dengan fitur jalan. Setelah Anda mendigitalkan ruas jalan, klik kanan untuk mengakhiri fitur.
 
-# Note :
+### Note :
 Anda dapat menggunakan roda gulir mouse untuk memperbesar atau memperkecil saat melakukan digitasi. Anda juga dapat menahan tombol gulir dan menggerakkan mouse untuk menjelajah.
+### =================================================================================================================================================================
 
 13. Setelah Anda mengklik kanan untuk mengakhiri fitur, Anda akan mendapatkan dialog pop-up yang disebut Jalan - Atribut Fitur. Di sini Anda dapat memasukkan atribut dari fitur yang baru dibuat. Lewati memasukkan nilai apa pun untuk fid karena ini adalah id berurutan yang akan dibuat secara otomatis. Masukkan nama jalan seperti yang tertera di peta topo. Secara opsional, tetapkan juga nilai Kelas Jalan. Klik Oke.
 
@@ -50,13 +51,14 @@ Anda dapat menggunakan roda gulir mouse untuk memperbesar atau memperkecil saat 
 
 23. Sekarang kita akan membuat layer lain untuk mendigitalkan taman sebagai poligon. Klik Layer ‣ Create Layer ‣ New GeoPackage Layer… ikon dari Panel. Dalam dialog New GeoPackage Layer, klik tombol … dan pilih database GeoPackage bernama digitizing.gpkg. Beri nama layer baru sebagai atribut yang disebut Taman. Pilih MultiPolygon sebagai Tipe. Peta topografi dasar adalah EPSG:2193 - NZGD 2000 CRS. Klik Oke. Di Bidang Baru Masukkan Nama, dan jenisnya sebagai data Teks, dengan 50 sebagai Panjang maksimum dan klik :guilabel:` Tambahkan ke Daftar Bidang.`. Klik Oke.
 
-# Note :
+### Note :
 Poligon vs Multi-Poligon
 
 Polygon - Planar Permukaan didefinisikan oleh 1 batas eksterior dan 0 atau lebih batas interior. Setiap batas interior mendefinisikan sebuah lubang di Poligon.
 
 Multi-Polygon - Ini digunakan untuk mewakili area dengan lubang di dalamnya atau terdiri dari beberapa area yang terpisah. Misalnya, 3 poligon terputus-putus dapat ditarik dan dikelompokkan sebagai fitur tunggal.
 
+### ===========================================================================================================================================================================
 
 24. Dialog pop-up akan muncul. Pilih tombol Tambahkan Lapisan Baru.
 
